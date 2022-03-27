@@ -1,0 +1,1 @@
+export const AVAX_CHAIN_ID = '0xa86a';

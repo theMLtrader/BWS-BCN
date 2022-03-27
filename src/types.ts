@@ -1,0 +1,40 @@
+export type Token = {
+  beachReadyScore: number;
+  chainId: number;
+  contractAddress: string;
+  contractDecimal: number;
+  contractName: string;
+  contractTickerSymbol: string;
+  logoUrl: string;
+  price: string;
+  volitilityLastEpoch: string;
+  returnLastEpoch: number;
+};
+
+export type Farm = {
+  apy: string;
+  apyDaily: number;
+  apyMonthly: number;
+  coinsASec: number;
+  extraRewards: string;
+  isActive: boolean;
+  rewardsCoin: string;
+  symbol0price: string;
+  symbol1price: string;
+  totalApy: number;
+  totalApyDaily: number;
+  totalApyMonthly: number;
+  tvl: number;
+  poolNumber: string;
+  protocolName: string;
+  contract: string;
+  symbol0Name: string;
+  symbol0Logo: string;
+  symbol1Name: string;
+  symbol1Logo: string;
+  symbol0address: string;
+  symbol1address: string;
+  network: string;
+  lpAddress: string;
+  beachReadyScore: number;
+};
